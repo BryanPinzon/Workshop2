@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Products</title>
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+
+</head>
+<body>
+    <header class="header__container"><h1 class="form__title">Hola, añade aquí tus productos.</h1>
+    </header>
+    <main class="main__container">
+        <h2 class="main__subtitle"> Ingresa la informacion</h2>
+        <form class="form__container">
+            <label for="name"> Nombre de producto </label>
+            <input id="nameInput" type="text" >
+            <label form="price" > Precio del producto </label >
+            <input id="priceInput" type="number" >
+            <label for="number"> Cantidad del producto </label>
+            <input id="quantityInput" type="number" >
+            <label for="category"> Categoria del producto </label>
+            <input id='categoryInput' type="text" >
+            <button type="submit" class="form__buttom">Enviar </button>
+            <button class="list"><a href="./table.html">Lista de productos</a></button>
+        </form> 
+
+        
+        <script src="../scripts/addProducts.js" type="module"></script>
+    </body>
+</html>
